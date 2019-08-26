@@ -1,0 +1,31 @@
+version: '2'
+services:
+  bff:
+    container_name: bff
+    restart: always
+    environment:
+      - SERVER_PORT=5151
+      - WEB_API_SERVER=http://10.201.223.32:8089
+      - FAKE_BACKEND=true
+      - MOCK_DATABASE_HOST=db
+    image: shumih/bff
+    ports:
+      - '5151:5151'
+    links:
+      - db
+
+  db:
+    container_name: db
+    restart: always
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_PASSWORD: example
+    image: shumih/pg_db
+
+#  mongo:
+#    container_name: mongo
+#    image: mongo
+#    command: mongod --port 27018
+#    ports:
+#      - '27018:27018'
