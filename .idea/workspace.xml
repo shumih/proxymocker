@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68a7970f-0739-4146-9bef-3f7f90d02bc7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/reader.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/ckeditor/ckeditor-api.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/ckeditor/controllers/ckfinder.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/ckeditor/controllers/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/ckeditor/models/file-upload-response.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/ckeditor/models/intex.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/core/core-module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/core/services/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/core/services/logger.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/core/services/web-api.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/database/database.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/database/database.providers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/mock/entities/mock-reponse.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/mock/providers/mock-response.provider.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -62,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/modules/mock/services/mock-web-api.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+            <state relative-caret-position="28">
+              <caret line="84" column="7" lean-forward="true" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
               <folding>
                 <element signature="e#0#60#0" expanded="true" />
                 <element signature="e#143#195#0" expanded="true" />
@@ -73,10 +59,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.env">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="875">
+              <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -85,7 +71,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>saveToPersistentStorage</find>
       <find>body:</find>
       <find>FAKE_BACKEND</find>
       <find>Logger</find>
@@ -115,6 +100,7 @@
       <find>updateAccordingToResponseType</find>
       <find>data</find>
       <find>AxiosResponse</find>
+      <find>.env</find>
     </findStrings>
     <replaceStrings>
       <replace>eyJhbGciOiJBMTI4S1ciLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0.067Qlr2Ovh7TPBE1KQZkua3p_xfrZRhfJ0PjadtZuRrENjapS5T_Ew.HpMHO2W91o_Sz2Gy2K1u9A.rMyr91YYOH7FvMzk8NdCqVjEyRYSHHqCzpr_sGQ6-sSd-qB_irw-ayR891Fsx08Z2SjYU7-qkqZAa1ecXuPMsdnF25eqzGHkhFl_KvxzCIrbODWDmQzTWqQF5ZnQoMs.2r0Mvm4eSYSzUqC-PMT5Vg</replace>
@@ -126,7 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/controllers/index.ts" />
         <option value="$PROJECT_DIR$/src/modules/mock/interceptors/memoize/memoize.interceptor.ts" />
         <option value="$PROJECT_DIR$/src/services/environment.service.ts" />
         <option value="$PROJECT_DIR$/src/modules/mock/interceptors/index.ts" />
@@ -137,7 +122,6 @@
         <option value="$PROJECT_DIR$/src/modules/global/core-module.ts" />
         <option value="$PROJECT_DIR$/src/models/index.ts" />
         <option value="$PROJECT_DIR$/src/index.d.ts" />
-        <option value="$PROJECT_DIR$/.sample-env" />
         <option value="$PROJECT_DIR$/src/modules/mock/interceptors/fake-backend/fake-backend.interceptor.ts" />
         <option value="$PROJECT_DIR$/src/modules/mock/schemas/mock-response.schema.ts" />
         <option value="$PROJECT_DIR$/src/modules/mock/controllers/ckfinder/ckfinder.controller.ts" />
@@ -177,6 +161,8 @@
         <option value="$PROJECT_DIR$/src/modules/mock/controllers/web-api/web-api.controller.ts" />
         <option value="$PROJECT_DIR$/src/modules/mock/services/mock-web-api.service.ts" />
         <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/.sample-env" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -248,6 +234,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/modules/mock/controllers/ckfinder" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -413,25 +400,33 @@
       <workItem from="1566466710099" duration="4033000" />
       <workItem from="1566663451292" duration="5613000" />
       <workItem from="1566669848741" duration="14352000" />
-      <workItem from="1566733795364" duration="6012000" />
+      <workItem from="1566733795364" duration="6345000" />
     </task>
+    <task id="LOCAL-00001" summary="sample .env">
+      <created>1566820731772</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566820731772</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185003000" />
+    <option name="totallyTimeSpent" value="185336000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="36" width="1784" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49717513" visible="true" weight="0.21164936" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49717513" visible="true" weight="0.21164936" />
       <window_info id="Structure" order="1" sideWeight="0.50282484" side_tool="true" weight="0.316609" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.5017123" side_tool="true" weight="0.24957459" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.47165993" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.46558705" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46558705" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -449,18 +444,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sample .env" />
+    <option name="LAST_COMMIT_MESSAGE" value="sample .env" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/helpers/reader.ts</url>
           <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/modules/mock/services/mock-web-api.service.ts</url>
-          <line>89</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -471,20 +464,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/modules/core/services/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prettier.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/modules/core/services/logger.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -803,17 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/mock/services/mock-web-api.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#60#0" expanded="true" />
-            <element signature="e#143#195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/modules/mock/controllers/web-api/web-api.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -825,10 +793,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.sample-env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/mock/services/mock-web-api.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="84" column="7" lean-forward="true" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+            <element signature="e#143#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
         </state>
       </provider>
     </entry>
