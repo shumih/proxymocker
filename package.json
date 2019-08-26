@@ -1,7 +1,7 @@
 {
-  "name": "vtb-bff",
+  "name": "proxymocker",
   "version": "0.0.0",
-  "description": "VTB KKO Backend for Frontend",
+  "description": "Use proxy server to save and mock responses",
   "author": "",
   "license": "MIT",
   "scripts": {
@@ -55,6 +55,10 @@
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3",
     "webpack-node-externals": "^1.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shumih/proxymocker.git"
   },
   "jest": {
     "moduleFileExtensions": [

@@ -1,6 +1,6 @@
 FROM node:11
 
-WORKDIR /Users/Shum/projects/vtb-bff
+WORKDIR /Users/Shum/projects/proxymocker
 
 # Install app dependencies
 COPY package*.json ./
